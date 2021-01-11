@@ -101,7 +101,7 @@ namespace Spawn_Monsters.Monsters
             { Monster.ShadowBrute, new MonsterData("Shadow Brute", typeof(ShadowBrute), new object[] { null }, "Shadow Brute", 16, 32) },
             { Monster.ShadowShaman, new MonsterData("Shadow Shaman", typeof(ShadowShaman), new object[] { null }, "Shadow Shaman") },
 
-            { Monster.Skeleton, new MonsterData("Skeleton", typeof(Skeleton), new object[] { null }, "Skeleton", 16, 32) },
+            { Monster.Skeleton, new MonsterData("Skeleton", typeof(Skeleton), new object[] { null, false }, "Skeleton", 16, 32) },
 
             { Monster.SquidKid, new MonsterData("Squid Kid", typeof(SquidKid), new object[] { null }, "Squid Kid", 16, 16) }
 
